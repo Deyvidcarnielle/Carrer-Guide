@@ -64,89 +64,44 @@ header button:hover{
     transition: 1s;   
 }
 
-.titulo{
-    float: left;
-}
-
-.titulo h1{
-    color: #2E93EF;
-    font-size: 36px;
-    margin-left: 50px;
-    margin-top: 100px; 
-}
-
-.titulo h2{
-    opacity: 55%;
-    font-size: 24px;
-    margin-left: 100px;
-
-}
-
-.titulo p{
-    width: 755px;
-    font-size: 24px;
-    font-weight: bold;
-    margin-left: 100px;
-    margin-top: 200px;
-    margin-bottom: 100px;
-}
-
-.imagem_home{
-    float: right;
-    margin-top: 160px;
-    margin-right: 100px;
-
-}
-
-img{
-    width: 500px;
-    height: 500px;
-}
-
-.areas{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    padding-top: 80px;
-    height: 500px;
-    background-color: #4e2c69;
-}
-
-.areas h1{
-    color: white;
-    margin: 0 auto;
-}
-
-.container{
-    display: flex;
-    margin: 0 auto;
-    margin-top: 80px;
-}
-
-.card{
-    width: 200px;
-    height: 200px;
-    border: 1px solid rgb(255, 255, 255);
-    border-radius: 20px;
-    margin: 0 40px 0 40px;
-    color: white;
+.inicio h1 {
     text-align: center;
+    margin-bottom: 50px;
+    color: #007BFF;
+    font-size: 50px;
+    margin-top: 70px;
 }
 
-.card img{
-    width: 200px;
-    height: 200px;
-    border-radius: 20px;
+details {
+    background-color: #fff;
+    border: 1px solid #7b2eb9;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 60%;
+
 }
 
-.card h2{
-    margin-top: 10px;
-    color: white;
-    font-size: 20px;
+.duvidas {
+    height: 700px;
 }
 
-.card a{
-    text-decoration: none;
+summary {
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+    width: 60%;
+}
+
+summary:hover {
+    color: #007BFF;
+}
+
+p {
+    font-size: 14px;
+    color: #333;
+    padding-top: 10px;
 }
 
 footer{

@@ -6,7 +6,6 @@
 
 header{
     height: 180px;
-    
     background-color: #ffe4d8;
     border: 1px solid black ;
 }
@@ -64,6 +63,7 @@ header button:hover{
     transition: 1s;   
 }
 
+
 .titulo{
     float: left;
 }
@@ -92,6 +92,7 @@ header button:hover{
 
 .container{
     display: flex;
+   
 }
 
 .texto h2{
@@ -112,6 +113,7 @@ header button:hover{
     margin-left: 80px;
     margin-top: 10px;
     font-size: 17px;
+    width: 80%;
 }
 
 .texto ol span{

@@ -6,7 +6,6 @@
 
 header{
     height: 180px;
-    
     background-color: #ffe4d8;
     border: 1px solid black ;
 }
@@ -64,6 +63,7 @@ header button:hover{
     transition: 1s;   
 }
 
+
 .titulo{
     float: left;
 }
@@ -75,78 +75,90 @@ header button:hover{
     margin-top: 100px; 
 }
 
-.titulo h2{
-    opacity: 55%;
-    font-size: 24px;
-    margin-left: 100px;
-
-}
-
 .titulo p{
-    width: 755px;
-    font-size: 24px;
+    width: 555px;
+    font-size: 22px;
     font-weight: bold;
     margin-left: 100px;
-    margin-top: 200px;
+    margin-top: 100px;
     margin-bottom: 100px;
 }
 
-.imagem_home{
+.imagem_rede{
     float: right;
-    margin-top: 160px;
-    margin-right: 100px;
-
-}
-
-img{
-    width: 500px;
-    height: 500px;
-}
-
-.areas{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    padding-top: 80px;
-    height: 500px;
-    background-color: #4e2c69;
-}
-
-.areas h1{
-    color: white;
-    margin: 0 auto;
+    margin-top: 60px;
+    padding-left: 100px;
 }
 
 .container{
     display: flex;
-    margin: 0 auto;
-    margin-top: 80px;
+   
 }
 
-.card{
-    width: 200px;
-    height: 200px;
-    border: 1px solid rgb(255, 255, 255);
-    border-radius: 20px;
-    margin: 0 40px 0 40px;
-    color: white;
-    text-align: center;
+
+.texto h2{
+    color: #2E93EF;
+    font-size: 36px;
+    margin-left: 50px;
+    margin-top: 50px; 
 }
 
-.card img{
-    width: 200px;
-    height: 200px;
-    border-radius: 20px;
+.texto p{
+    width: 60%;
+    margin-left: 10%;
+    margin-top: 30px;
+    font-size: 18px;
 }
 
-.card h2{
+.texto li{
+    width: 80%;
+    margin-left: 80px;
     margin-top: 10px;
-    color: white;
-    font-size: 20px;
+    font-size: 17px;
 }
 
-.card a{
-    text-decoration: none;
+.texto ol span{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.texto ul{
+    margin-left: 150px;
+}
+
+.texto ul span{
+    font-weight: bold;
+}
+
+.lista .item h3{
+    font-size: 20px;
+    color: #4e2c69;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.lista .lista-direita{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    float: right;
+    margin-left: 50px;
+}
+
+.lista .lista-esquerda{
+    width: 50%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    padding-right: 80px;
+}
+
+.lista{
+    display: flex;
+}
+
+.item ul{
+    margin-left: 100px;
 }
 
 footer{
@@ -154,6 +166,7 @@ footer{
     height: 300px;
     background-color: rgba(0, 0, 0, 0.856);
     display: flex;
+    margin-top: 180px;
 }
 
 footer .logo img{
