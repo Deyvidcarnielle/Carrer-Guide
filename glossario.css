@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+HR+Lijeva:wght@100..400&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -64,47 +66,76 @@ header button:hover{
     transition: 1s;   
 }
 
-.inicio h1 {
+.texto h1 {
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 5px;
     color: #007BFF;
     font-size: 50px;
     margin-top: 70px;
 }
 
-details {
-    background-color: #fff;
-    border: 1px solid #7b2eb9;
-    margin-bottom: 10px;
-    margin-left: 50px;
+.texto h2{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 20px;
+    color: #4e2c69;
+}
+
+
+
+span{
+    color: #4e2c69;
+}
+
+
+.search-container {
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+#searchInput {
     padding: 10px;
-    border-radius: 5px;
-    width: 75%;
-
-}
-
-.duvidas {
-    height: 1200px;
-}
-
-summary {
-    font-weight: bold;
-    cursor: pointer;
+    width: 80%;
+    max-width: 400px;
     font-size: 16px;
-    width: 75%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
-summary:hover {
+.glossary {
+    list-style-type: none;
+    padding: 0;
+}
+
+.glossary-item {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    width: 90%;
+    margin-left: 20px;
+}
+
+.term {
+    font-weight: bold;
+}
+
+.glossary-item h1{
+    text-decoration: none;
+    outline: none;
+    border: none;
+    margin-top: 100px;
+    margin-left: 160px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 100px;
+    font-family: "Playwrite HR Lijeva", cursive;
     color: #007BFF;
 }
 
-p {
-    font-size: 16px;
-    color: #333;
-    padding-top: 10px;
-}
-
 footer{
+    margin-top: 100px;
     width: 100%;
     height: 300px;
     background-color: rgba(0, 0, 0, 0.856);

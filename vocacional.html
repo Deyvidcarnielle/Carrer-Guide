@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="vocacional.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>Teste Vocacional</title>
+</head>
+<body>
+    <header>
+        <img src="assets/Carrer Guide (3).png" alt="" width="100px" height="100px">
+       
+        
+    </header>
+
+    <div class="geral">
+    
+
+    <div class="menus">
+    <a href="index.html">Inicio</a>  
+    <a href="vocacional.html">Teste Vocacional</a>  
+    <a href="duvidas.html">Dúvidas Frequentes</a>  
+    <a href="glossario.html">Glossário</a>  
+    <a href="areas.html">Áreas de Atuação</a> 
+    </div>        
+
+    </div>
+
+    <div class="container">
+        <!-- Tela de Introdução -->
+        <div id="intro-screen">
+            <h1>Bem-vindo ao Teste Vocacional</h1>
+            <p>Este teste ajudará você a descobrir qual área do setor de TI combina mais com a sua personalidade. 
+            Responda as perguntas a seguir com sinceridade e no final você verá qual área mais se adequa ao seu perfil.</p>
+            <button id="start-button">Iniciar Teste</button>
+        </div>
+
+        <!-- Tela com o Teste -->
+        <div id="quiz-screen" style="display: none;">
+            <h1 style="color: #007BFF;">Teste Vocacional: Qual área de TI combina com você?</h1>
+            <form id="quiz-form">
+                <div class="question">
+                    <p>1. Como você se sente em relação a resolver problemas?</p>
+                    <input type="radio" name="q1" value="analista" id="q1a"> Gosto de resolver problemas lógicos. <br>
+                    <input type="radio" name="q1" value="rede" id="q1b"> Prefiro questões mais práticas e técnicas. <br>
+                    <input type="radio" name="q1" value="ia" id="q1c"> Gosto de entender como as coisas funcionam em um nível profundo. <br>
+                </div>
+                <div class="question">
+                    <p>2. O que você mais gosta de fazer no seu tempo livre?</p>
+                    <input type="radio" name="q2" value="analista" id="q2a"> Resolver quebra-cabeças. <br>
+                    <input type="radio" name="q2" value="rede" id="q2b"> Mexer com hardware ou configurar dispositivos. <br>
+                    <input type="radio" name="q2" value="ia" id="q2c"> Estudar novas tecnologias e como a inteligência artificial funciona. <br>
+                </div>
+                <div class="question">
+                    <p>3. Você prefere:</p>
+                    <input type="radio" name="q3" value="analista" id="q3a"> Trabalhar com grandes volumes de dados e análises. <br>
+                    <input type="radio" name="q3" value="rede" id="q3b"> Manter redes e sistemas funcionando sem falhas. <br>
+                    <input type="radio" name="q3" value="ia" id="q3c"> Explorar novas formas de aplicar inteligência em máquinas. <br>
+                </div>
+                <div class="question">
+                    <p>4. Qual é o seu perfil de trabalho?</p>
+                    <input type="radio" name="q4" value="analista" id="q4a"> Analítico e detalhista. <br>
+                    <input type="radio" name="q4" value="rede" id="q4b"> Prático e de ação rápida. <br>
+                    <input type="radio" name="q4" value="ia" id="q4c"> Curioso e criativo. <br>
+                </div>
+                <div class="question">
+                    <p>5. Como você se vê no futuro?</p>
+                    <input type="radio" name="q5" value="analista" id="q5a"> Trabalhando com grandes bancos de dados e insights. <br>
+                    <input type="radio" name="q5" value="rede" id="q5b"> Gerenciando infraestruturas e sistemas de redes. <br>
+                    <input type="radio" name="q5" value="ia" id="q5c"> Criando novas soluções com inteligência artificial. <br>
+                </div>
+                <button type="submit">Ver resultado</button>
+            </form>
+            <div id="result"></div>
+        </div>
+    </div>
+
+    <!-- Vinculando o arquivo JavaScript -->
+    <script src="script.js"></script>
+
+    <footer>
+        <div class="logo">
+            <img src="assets/Carrer_Guide__4_-removebg-preview.png" alt="">
+            <div class="icones">
+                <a href="#"><i class="bi bi-instagram"></i></a>
+                <a href="#"><i class="bi bi-facebook"></i></a>
+                <a href="#"><i class="bi bi-twitter-x"></i></a>
+            </div>
+        </div>
+
+        <div class="colunas">
+            <h1>Inicio</h1>
+            <h2>Inicio</h2>
+            <h2>Teste Vocacional</h2>
+            <h2>Dúvidas Frequentes</h2>
+            <h2>Glossário</h2>
+            <h2>Áreas de Atuação</h2>
+        </div>
+        <div class="colunas">
+            <h1>Sobre Nós</h1>
+            <h2>informações da Empresa</h2>
+            <h2>Contato</h2>
+            <h2>Blog</h2>
+        </div>
+        <div class="colunas">
+            <h1>Suporte</h1>
+            <h2>FAQ</h2>
+            <h2>Telefones</h2>
+            <h2>Chat</h2>
+        </div>
+    </footer>
+    
+    
+</body>
+</html>
