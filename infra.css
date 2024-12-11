@@ -207,3 +207,28 @@ footer .colunas h2{
     color: rgba(133, 133, 133, 0.641);
     font-size: 20px;
 }
+
+.logo{
+    display: flex;
+}
+
+.facu{
+    margin-top: 60px;
+}
+
+.facu h1{
+    color: #2E93EF;
+    margin-top: 60px;
+    font-size: 40px;
+    margin-left: 60px;
+}
+
+.facu h2{
+    color: black;
+}
+
+.facu img{
+    width: 100px;
+    height: 100px;
+    margin-left: 50px;
+}
