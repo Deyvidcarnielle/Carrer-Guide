@@ -110,6 +110,7 @@ img{
     padding-top: 80px;
     height: 500px;
     background-color: #4e2c69;
+    border-radius: 30px;
 }
 
 .areas h1{
@@ -154,6 +155,7 @@ footer{
     height: 300px;
     background-color: rgba(0, 0, 0, 0.856);
     display: flex;
+    margin-top: 200px;
 }
 
 footer .logo img{
@@ -194,3 +196,113 @@ footer .colunas h2{
     color: rgba(133, 133, 133, 0.641);
     font-size: 20px;
 }
+
+.teste {
+    height: 200px;
+    width: 100vw;
+    background-color: #2E93EF;
+}
+
+section{
+    background: rgb(21,14,145);
+background: linear-gradient(90deg, rgba(21,14,145,1) 1%, rgba(20,20,184,1) 9%, rgba(0,163,255,1) 82%);
+    width: 90%;
+    height: 200px;
+    border-radius: 30px;
+    margin: auto;
+    margin-top: 660px;
+    color: white; 
+    text-align: center;
+    margin-bottom: 50px;
+    box-shadow: 29px 38px 35px -26px rgba(0,0,0,0.7);
+}
+
+section h2{
+    margin-top: 20px;
+}
+
+section h1{
+    padding-top: 20px;
+    font-size: 30px;
+}
+
+
+section button{
+    height: 45px;
+    font-size: 17px;
+    margin-top: 20px;
+    width: 120px;
+    border-radius: 10px;
+    background-color: #4e2c69;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    border: 1px solid white
+}
+
+.form-container {
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 30px;
+    width: 400px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-left: 80px;
+}
+.form-container h2 {
+    text-align: center;
+    color: #333;
+}
+.form-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.form-container input[type="text"],
+.form-container input[type="tel"],
+.form-container input[type="email"],
+.form-container input[type="number"],
+.form-container select {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.form-container button {
+    width: 48%;
+    padding: 10px;
+    margin: 5px 1%;
+    background-color: #4e2c69;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.form-container button:hover {
+    background-color: #2f1a40;
+}
+.form-container .btn-consultar {
+    background-color: #2E93EF;
+}
+.form-container .btn-consultar:hover {
+    background-color: #007B9A;
+}
+
+.psico{
+    margin-top: 70px;
+    width: 50%;
+    
+    padding-left: 120px;
+}
+
+.psico h1{
+    color: #2E93EF;
+    font-size: 40px;
+}
+
+.psico p{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+

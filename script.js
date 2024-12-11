@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', function() {
         // Exibindo o resultado
         const resultText = {
             analista: "A área de Análise de Dados combina com você. Você gosta de trabalhar com grandes volumes de dados e análises para tomar decisões mais assertivas.",
-            rede: "A área de Redes é ideal para você! Você se sente confortável com a manutenção de infraestruturas e redes.",
+            rede: "A área de Redes é ideal para você! Você se sente confortável com a manutenção de infraestruturas e redes. Acesse para mais informações",
             ia: "Inteligência Artificial é a área para você! Você é curioso e gosta de entender como criar sistemas inteligentes."
         };
 
